@@ -2,7 +2,6 @@ import pandas as pd
 import yfinance as yf
 from datetime import datetime, timedelta
 import os
-import time
 
 ticker_list = ["TMO", "NKE", "PFE", "CPB", "YUMC", "TSM", "BF-B", "GSK", "GOOGL"]
 end_date = datetime.today()
